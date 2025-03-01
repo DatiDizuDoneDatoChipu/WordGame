@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using TMPro;
 using Unity.VisualScripting;
@@ -22,10 +23,10 @@ public class LoadManager : MonoBehaviour
     public GameObject NoCharImage;
     public GameObject CharImage;
 
-    public UnityEvent CharAdd;
-    public UnityEvent NoCharAdd;
+    int stringCount;
 
     public string word;
+    public string tempString;
 
     public List<List<GameObject>> wordList = new List<List<GameObject>>();
     
@@ -35,7 +36,7 @@ public class LoadManager : MonoBehaviour
     {
         DataHolder holder = FindAnyObjectByType<DataHolder>();
 
-        word = codeConverter.Decode(holder.code);
+        word = codeConverter.Decode(holder.code); 
         Debug.Log("Слово: " + codeConverter.Decode(holder.code));
 
         if (holder != null)
@@ -45,25 +46,75 @@ public class LoadManager : MonoBehaviour
                 word.ToLower();
                 string[] words = word.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
+                stringCount = 0;
+                GameObject wordParent = Instantiate(prefabWord, parent.transform);
                 foreach (string word2 in words)
                 {
-                    GameObject wordParent = Instantiate(prefabWord, parent.transform);
-                    List<GameObject> letterList = new List<GameObject>();
-                    foreach (char c in word2)
+                    if (tempString == null)
                     {
-                        if (c != ' ')
-                        {
-                            GameObject item = Instantiate(CharImage, wordParent.transform);
-                            letterList.Add(item);
-                            item.GetComponentInChildren<TextMeshProUGUI>().text = c.ToString().ToUpper();
-                            item.GetComponent<Transform>().GetChild(0).gameObject.SetActive(false);
-                        }
-                        Debug.Log(c);
+                        tempString += word2;
                     }
-                    wordList.Add(letterList);
+                    else
+                    {
+                        tempString += ' ' + word2;
+                    }
+                    if (tempString.Count() <= 9)
+                    {
+                        Debug.Log("Сама строка: " + tempString);
+                        Debug.Log("Количество букв в строке: " + tempString.Count());
+
+                        AddInPrevWord(word2);
+                    }
+                    else
+                    {
+                        Debug.Log("Сама строка: " + tempString);
+                        Debug.Log("Количество букв в строке: " + tempString.Count());
+                        CreateNewWord(word2);
+                    }
                 }
             }
         }
+    }
+
+    public void AddInPrevWord(string word2)
+    {
+        if(parent.transform.GetChild(stringCount).childCount > 0)
+        {
+            GameObject spaceItem = Instantiate(NoCharImage, parent.transform.GetChild(stringCount));
+        }
+        Debug.Log("Добавил в ребёнка номер" + stringCount);
+        List<GameObject> letterList = new List<GameObject>();
+        foreach (char c in word2)
+        {
+            if (c != ' ')
+            {
+                GameObject item = Instantiate(CharImage, parent.transform.GetChild(stringCount));
+                letterList.Add(item);
+                item.GetComponentInChildren<TextMeshProUGUI>().text = c.ToString().ToUpper();
+                item.GetComponent<Transform>().GetChild(0).gameObject.SetActive(false);
+            }
+        }
+        wordList.Add(letterList);
+    }
+
+    public void CreateNewWord(string word2)
+    {
+        GameObject wordParent2 = Instantiate(prefabWord, parent.transform);
+        Debug.Log("Добавил в нового ребёнка");
+        stringCount++;
+        List<GameObject> letterList = new List<GameObject>();
+        foreach (char c in word2)
+        {
+            if (c != ' ')
+            {
+                GameObject item = Instantiate(CharImage, wordParent2.transform);
+                letterList.Add(item);
+                item.GetComponentInChildren<TextMeshProUGUI>().text = c.ToString().ToUpper();
+                item.GetComponent<Transform>().GetChild(0).gameObject.SetActive(false);
+            }
+        }
+        wordList.Add(letterList);
+        tempString = word2;
     }
 
     // Update is called once per frame

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "F:\\TestProject\\MyLove\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|f:\\testproject\\mylove\\assets\\script\\uiscript\\uilogscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|f:\\testproject\\mylove\\assets\\script\\dataholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dataholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|F:\\TestProject\\MyLove\\assets\\script\\uiscript\\loadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\uiscript\\loadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|F:\\TestProject\\MyLove\\assets\\script\\uiscript\\uilogscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\uiscript\\uilogscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|f:\\testproject\\mylove\\assets\\script\\decodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\decodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|f:\\testproject\\mylove\\assets\\script\\uiscript\\addingchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\uiscript\\addingchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|F:\\TestProject\\MyLove\\assets\\script\\uiscript\\keyboardmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\uiscript\\keyboardmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|F:\\TestProject\\MyLove\\assets\\script\\decodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\decodemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|F:\\TestProject\\MyLove\\assets\\script\\uiscript\\clipboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|F:\\TestProject\\MyLove\\assets\\script\\yandexdictionarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\yandexdictionarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|F:\\TestProject\\MyLove\\assets\\script\\uiscript\\loadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{603085C9-E4EC-2F95-338E-8E4DC97EF96A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\uiscript\\loadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,32 +51,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DataHolder.cs",
+              "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\DataHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\DataHolder.cs",
+              "ToolTip": "F:\\TestProject\\MyLove\\Assets\\Script\\DataHolder.cs",
+              "RelativeToolTip": "Assets\\Script\\DataHolder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA8wBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T16:15:38.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddingChar.cs",
+              "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\AddingChar.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UIScript\\AddingChar.cs",
+              "ToolTip": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\AddingChar.cs",
+              "RelativeToolTip": "Assets\\Script\\UIScript\\AddingChar.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T16:00:08.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UILogScreen.cs",
               "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\UILogScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UIScript\\UILogScreen.cs",
               "ToolTip": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\UILogScreen.cs",
               "RelativeToolTip": "Assets\\Script\\UIScript\\UILogScreen.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAWwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T16:15:11.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DecodeManager.cs",
               "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\DecodeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\DecodeManager.cs",
               "ToolTip": "F:\\TestProject\\MyLove\\Assets\\Script\\DecodeManager.cs",
               "RelativeToolTip": "Assets\\Script\\DecodeManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wBwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T14:32:11.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "YandexDictionaryManager.cs",
               "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\YandexDictionaryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\YandexDictionaryManager.cs",
@@ -80,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ClipBoardManager.cs",
               "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\ClipBoardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UIScript\\ClipBoardManager.cs",
@@ -92,27 +126,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "KeyBoardMethods.cs",
               "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\KeyBoardMethods.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UIScript\\KeyBoardMethods.cs",
               "ToolTip": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\KeyBoardMethods.cs",
               "RelativeToolTip": "Assets\\Script\\UIScript\\KeyBoardMethods.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAIwHoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAmwHoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T10:42:18.367Z"
+              "WhenOpened": "2025-02-27T10:42:18.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "LoadManager.cs",
               "DocumentMoniker": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\LoadManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UIScript\\LoadManager.cs",
               "ToolTip": "F:\\TestProject\\MyLove\\Assets\\Script\\UIScript\\LoadManager.cs",
               "RelativeToolTip": "Assets\\Script\\UIScript\\LoadManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAWwCUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAACQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T10:40:51.876Z"
+              "WhenOpened": "2025-02-27T10:40:51.876Z",
+              "EditorCaption": ""
             }
           ]
         }

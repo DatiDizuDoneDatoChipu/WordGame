@@ -11,12 +11,17 @@ public class UILogScreen : MonoBehaviour
     [SerializeField] private TMP_InputField inputCodeField;
 
     [SerializeField] private TMP_Text codeText;
-    [SerializeField] private DataHolder holder;
+    private DataHolder holder;
 
     [SerializeField] private GameObject inputPanel;
     [SerializeField] private GameObject copyPanel;
 
     string code;
+
+    public void Awake()
+    {
+        DataHolder holder = FindAnyObjectByType<DataHolder>();
+    }
 
     public void PlayButton()
     {
@@ -34,9 +39,10 @@ public class UILogScreen : MonoBehaviour
 
     public void InputCodeButton()
     {
+        DataHolder holder = FindAnyObjectByType<DataHolder>();
+
         holder.code = inputCodeField.text;
         SceneManager.LoadScene("SampleScene");
-        
     }
 
     public void SecondButton()

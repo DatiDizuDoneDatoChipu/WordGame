@@ -8,8 +8,7 @@ public class AddingChar : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        loadManager.CharAdd.AddListener(AddChar);
-        loadManager.NoCharAdd.AddListener(AddNoChar);
+        
     }
 
     private void AddChar()

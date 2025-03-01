@@ -82,7 +82,7 @@ public class KeyBoardMethods : MonoBehaviour
             string myWord = changeText.text;
             Debug.Log("Текст " + myWord);
 
-            if (LoadManager.word.ToLower().Contains(myWord.ToLower()))
+            if (LoadManager.word.ToLower().Equals(myWord.ToLower()))
             {
                 CheckLetters(myWord);
             }
